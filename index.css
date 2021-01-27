@@ -1,0 +1,46 @@
+body {
+    margin-left: 40%;
+}
+
+p{
+    margin-top:0;
+}
+
+h1{
+    margin-bottom:0;
+}
+
+section{
+    margin-bottom:1em;
+}
+
+#buttonSection .button{
+    margin-right: 0;
+}
+
+section .box{
+    display:flex;
+}
+
+#display {
+    max-width: 365px;
+    height: 1px;
+    padding-top:3px;
+    margin-bottom:1px;
+}
+
+#scoredisp{
+    max-width: 365px;
+    margin-top:0px;
+    padding-bottom: 0;
+}
+
+img{
+    display: flex;
+    max-width: 50%;
+}
+
+p strong{
+    font-size: 12px;
+    position: absolute;
+}
