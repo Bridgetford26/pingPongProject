@@ -8,6 +8,7 @@ p{
 
 h1{
     margin-bottom:0;
+    font-weight: bold;
 }
 
 section{
@@ -43,4 +44,12 @@ img{
 p strong{
     font-size: 12px;
     position: absolute;
+}
+
+.win{
+    color:green;
+}
+
+.lose{
+    color:red;
 }
