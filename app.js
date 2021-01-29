@@ -18,6 +18,8 @@ p1Button.addEventListener("click", () => {
             gameOver = true;
             p1Display.classList.add("win");
             p2Display.classList.add("lose");
+            p1Button.disabled = true;
+            p2Button.disabled = true;
         }
     }
 });
@@ -29,6 +31,8 @@ p2Button.addEventListener("click", () => {
             gameOver = true;
             p2Display.classList.add("win");
             p1Display.classList.add("lose");
+            p1Button.disabled = true;
+            p2Button.disabled = true;
         }
     }
 });
@@ -46,6 +50,8 @@ function resetDisplay() {
     gameOver = false;
     p1Display.classList.remove("win", "lose");
     p2Display.classList.remove("win", "lose");
+    p1Button.disabled = false;
+    p2Button.disabled = false;
 }
 
 reset.addEventListener("click", resetDisplay);
